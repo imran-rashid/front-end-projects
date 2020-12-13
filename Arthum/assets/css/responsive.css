@@ -1,0 +1,362 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+        font-size: 16px;
+        line-height: 26px;
+        height: 100%;
+    }
+
+    nav li {
+        padding-right: 16px;
+    }
+
+    nav li a.btn-fr {
+        margin: 0;
+    }
+
+    .prev-bg {
+        left: 2%;
+    }
+
+    .next-bg {
+        right: 2%;
+    }
+
+    .what-we {
+        margin: 0;
+    }
+
+    .what-we li {
+        font-size: 14px;
+    }
+
+    .what-we li img {
+        margin-right: 2px;
+    }
+
+    .what-we:last-child {
+        margin-left: 6px;
+    }
+
+    .service-box-lg {
+        padding: 140px 50px 50px 50px;
+    }
+
+    .service-box-sm {
+        padding: 30px 15px;
+    }
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    body {
+        font-size: 17px;
+        line-height: 26px;
+        height: 100%;
+    }
+
+    /* ========================================
+    =========================================
+    Responsive Navigation
+    =========================================
+    =======================================*/
+    header.header-area {
+        padding: 30px 20px;
+    }
+
+    ul#navigation {
+        display: none;
+    }
+
+    /* ======================= */
+    .slicknav_menu {
+        display: inline-block;
+        position: absolute;
+        top: -60px;
+        right: 0;
+        background: none;
+        z-index: 9999;
+    }
+
+    .slicknav_btn {
+        background: none;
+    }
+
+    .slicknav_menu .slicknav_icon-bar {
+        background: #0e76bc;
+        width: 40px;
+        margin: 6px 0;
+    }
+
+    ul.slicknav_nav {
+        background: #313131;
+        position: relative;
+        text-transform: capitalize;
+        color: #fff;
+        margin-right: -7px;
+    }
+
+    .slicknav_nav a {
+        padding: 8px 80px 6px 10px;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+
+    .slicknav_nav a:hover {
+        background: none;
+        color: #fff;
+        text-shadow: 0 0;
+    }
+
+    .slicknav_nav a:focus {
+        outline: none;
+    }
+
+    a.btn-en {
+        background: #0f75bc;
+    }
+
+    a.btn-en:hover {
+        background: #0f75bc;
+        border-radius: 0;
+    }
+
+    a.btn-fr {
+        background: #161346;
+    }
+
+    a.btn-fr:hover {
+        background: #0f75bc;
+        border-radius: 0;
+    }
+
+
+
+    div#particles-js {
+        width: 100%;
+        opacity: .6;
+        transform-origin: 0;
+        transform: skew(0deg);
+    }
+
+    .hero-tablecell p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .hero-tablecell img {
+        margin-top: 80px;
+    }
+
+    header.header-area {
+        padding: 20px;
+    }
+
+    .what-we {
+        margin-bottom: 40px;
+    }
+
+    span.preview-btn img,
+    span.next-btn img {
+        width: 20px;
+    }
+
+    .prev-bg {
+        left: 10px;
+    }
+
+    .next-bg {
+        right: 10px;
+    }
+}
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    /* ========================================
+    =========================================
+    Responsive Navigation
+    =========================================
+    =======================================*/
+    header.header-area {
+        padding: 30px 20px;
+    }
+
+    ul#navigation {
+        display: none;
+    }
+
+    /* ======================= */
+    .slicknav_menu {
+        display: inline-block;
+        position: absolute;
+        top: -60px;
+        right: 0;
+        background: none;
+        z-index: 9999;
+    }
+
+    .slicknav_btn {
+        background: none;
+    }
+
+    .slicknav_menu .slicknav_icon-bar {
+        background: #0e76bc;
+        width: 40px;
+        margin: 6px 0;
+    }
+
+    ul.slicknav_nav {
+        background: #313131;
+        position: relative;
+        text-transform: capitalize;
+        color: #fff;
+        margin-right: -7px;
+    }
+
+    .slicknav_nav a {
+        padding: 8px 80px 6px 10px;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+
+    .slicknav_nav a:hover {
+        background: none;
+        color: #fff;
+        text-shadow: 0 0;
+    }
+
+    .slicknav_nav a:focus {
+        outline: none;
+    }
+
+    a.btn-en {
+        background: #0f75bc;
+    }
+
+    a.btn-en:hover {
+        background: #0f75bc;
+        border-radius: 0;
+    }
+
+    a.btn-fr {
+        background: #161346;
+    }
+
+    a.btn-fr:hover {
+        background: #0f75bc;
+        border-radius: 0;
+    }
+
+
+    /* ===================================*/
+    .hero-tablecell img {
+        width: 200px;
+        margin-top: 100px;
+    }
+
+    .hero-tablecell {
+        text-align: center;
+    }
+
+    section.hero-area {
+        height: 620px;
+    }
+
+    .hero-tablecell p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    span.preview-btn,
+    span.next-btn {
+        display: none;
+    }
+
+    div#particles-js {
+        width: 100%;
+        opacity: .6;
+        transform-origin: 0;
+        transform: skew(0deg);
+    }
+
+    section.who-we {
+        text-align: center;
+    }
+
+    .what-we {
+        text-align: left;
+        margin: 0 0 30px 0;
+    }
+
+    .service-area img.after {
+        margin: 5px 0 50px 0;
+    }
+
+    .service-box-lg img {
+        padding: 0;
+        float: none;
+    }
+
+    .service-box-lg {
+        padding: 30px;
+        text-align: center;
+    }
+
+    .service-box-sm h4,
+    .service-box-lg h4 {
+        padding: 16px 0;
+    }
+
+    .service-box-sm {
+        padding: 30px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .map iframe {
+        position: relative;
+        width: 100%;
+        height: 340px;
+    }
+
+    section.contact:before {
+        width: 100%;
+    }
+
+    section.contact:after {
+        width: 100%;
+    }
+
+    .contact h1 {
+        text-align: center;
+    }
+
+    .contact-box {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+}
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .what-we:last-child {
+        margin-left: 20px;
+    }
+
+    .contact-box {
+        width: 50%;
+    }
+}
